@@ -5,6 +5,7 @@ import Inicio from "./screens/inicio/Inicio";
 import Inovacao from "./screens/inovacao/Inovacao";
 import Depoimentos from "./screens/depoimentos/Depoimentos";
 import Experiencia from "./screens/experiencia/Experiencia";
+import Ajuda from "./screens/ajuda/Ajuda";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Inovacao />
           <Depoimentos />
           <Experiencia />
-          <div>#ajuda</div>
+          <Ajuda />
         </main>
         <footer>footer</footer>
       </div>
