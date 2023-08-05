@@ -1,6 +1,7 @@
 import "./App.css";
+import AbraSuaConta from "./screens/abra_sua_conta/AbraSuaConta";
 import Header from "./components/header/Header";
-import Inicio from "./components/inicio/Inicio";
+import Inicio from "./screens/inicio/Inicio";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <Header />
         <main>
           <Inicio />
-          <div>abra sua conta</div>
+          <AbraSuaConta />
           <div>#inovação</div>
           <div>#depoimentos</div>
           <div>uma nova esperiencia</div>
