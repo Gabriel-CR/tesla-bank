@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import Inicio from "./screens/inicio/Inicio";
 import Inovacao from "./screens/inovacao/Inovacao";
 import Depoimentos from "./screens/depoimentos/Depoimentos";
+import Experiencia from "./screens/experiencia/Experiencia";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <AbraSuaConta />
           <Inovacao />
           <Depoimentos />
-          <div>uma nova esperiencia</div>
+          <Experiencia />
           <div>#ajuda</div>
         </main>
         <footer>footer</footer>
