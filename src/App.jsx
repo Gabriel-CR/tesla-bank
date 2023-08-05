@@ -3,6 +3,7 @@ import AbraSuaConta from "./screens/abra_sua_conta/AbraSuaConta";
 import Header from "./components/header/Header";
 import Inicio from "./screens/inicio/Inicio";
 import Inovacao from "./screens/inovacao/Inovacao";
+import Depoimentos from "./screens/depoimentos/Depoimentos";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <Inicio />
           <AbraSuaConta />
           <Inovacao />
-          <div>#depoimentos</div>
+          <Depoimentos />
           <div>uma nova esperiencia</div>
           <div>#ajuda</div>
         </main>
